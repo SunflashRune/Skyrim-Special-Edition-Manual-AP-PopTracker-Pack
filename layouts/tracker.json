@@ -1,0 +1,272 @@
+﻿//sets the trackers layout
+//more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#layouts 
+{
+    "tracker_default": {
+        "type": "container",
+        "background": "#000000",
+        "content": {
+            "type": "dock",
+            "dropshadow": true,
+            "content": [
+                {
+                    "type": "dock",
+                    "dock": "left",
+                    "v_alignment": "stretch",
+                    "content": [
+                        {
+                            "type": "group",
+                            "header": "Items",
+                            "dock": "top",
+							"margin": "0,0,3,0",
+                            "content": {
+                                "type": "layout",
+                                "key": "Skills_Main_Progressives"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Locations",
+                            "dock": "right",
+                            "margin": "0,0,3,0",
+                            "content": {
+                              "type": "layout",
+                              "h_alignment": "center",
+                              "v_alignment": "center",
+                              "key": "Progressive_Locations"
+                            }
+                          }
+                    ]
+                },
+                {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Province",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Province"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Haafingar",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Haafingar"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "The Reach",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "The Reach"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Hjaalmarch",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Hjaalmarch"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Whiterun Hold",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Whiterun Hold"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Falkreath Hold",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Falkreath Hold"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "The Pale",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "The Pale"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Winterhold",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Winterhold"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Eastmarch",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Eastmarch"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "The Rift",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "The Rift"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "tracker_horizontal": {
+        "type": "container",
+        "background": "#000000",
+        "content": {
+            "type": "dock",
+            "dropshadow": true,
+            "content": [
+                {
+                    "type": "dock",
+                    "dock": "left",
+                    "v_alignment": "stretch",
+                    "content": [
+                        {
+                            "type": "group",
+                            "header": "Items",
+                            "dock": "top",
+							"margin": "0,0,3,0",
+                            "content": {
+                                "type": "layout",
+                                "key": "Skills_Main_Progressives"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Locations",
+                            "dock": "right",
+                            "margin": "0,0,3,0",
+                            "content": {
+                              "type": "layout",
+                              "h_alignment": "center",
+                              "v_alignment": "center",
+                              "key": "Progressive_Locations"
+                            }
+                          }
+                    ]
+                },
+                {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Province",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Province"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Haafingar",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Haafingar"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "The Reach",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "The Reach"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Hjaalmarch",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Hjaalmarch"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Whiterun Hold",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Whiterun Hold"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Falkreath Hold",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Falkreath Hold"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "The Pale",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "The Pale"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Winterhold",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Winterhold"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Eastmarch",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Eastmarch"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "The Rift",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "The Rift"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,932 @@
+[
+    {
+        "name": "Province Locations",
+        "children": [
+            {
+                "name": "Helgen",
+                "access_rules": [
+                    
+                ],
+                "sections": [
+                    {
+                        "name": "Unbound",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Province",
+                        "x": 1100,
+                        "y": 1190
+                    },
+                    {
+                        "map": "Falkreath Hold",
+                        "x": 335,
+                        "y": 187
+                    }
+                ]
+            },
+            {
+                "name": "Misc Objectives",
+                "sections": [
+                    {
+                        "name": "Standing Stones Found = 4",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Standing Stones Found = 8",
+                        "access_rules":[
+                            "MainQuestProg:3"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Standing Stones Found = 13",
+                        "access_rules":[
+                            "MainQuestProg:8, WeaponProg:2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Word Walls Read = 1",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Word Walls Read = 3",
+                        "access_rules":[
+                            "MainQuestProg:3, WeaponProg:1"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Word Walls Read = 5",
+                        "access_rules":[
+                            "MainQuestProg:8, WeaponProg:2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Thaneships = 3",
+                        "access_rules":[
+                            "MainQuestProg:4, WeaponProg:1"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Slay 6 Wolves, 2 Sabre Cats, 1 Bear",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Slay 3 Hunters Prey",
+                        "access_rules":[
+                            "MainQuestProg:12, WeaponProg:2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Dragons Slain = 2",
+                        "access_rules":[
+                            "MainQuestProg:3, WeaponProg:1"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Dragons Slain = 6",
+                        "access_rules":[
+                            "MainQuestProg:6, WeaponProg:1"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Dragons Slain = 10",
+                        "access_rules":[
+                            "MainQuestProg:9, WeaponProg:2"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Province",
+                        "x": 350,
+                        "y": 1150
+                    }
+                ]
+            },
+            {
+                "name": "Bounty Objectives",
+                "sections": [
+                    {
+                        "name": "Bandit Bounties Complete = 3",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bandit Bounties Complete = 6",
+                        "access_rules":[
+                            "MainQuestProg:2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Forsworn Bounties Complete = 3",
+                        "access_rules":[
+                            "MainQuestProg:1"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Forsworn Bounties Complete = 6",
+                        "access_rules":[
+                            "MainQuestProg:4, WeaponProg:1"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Dragon Bounties Complete = 3",
+                        "access_rules":[
+                            "MainQuestProg:5, WeaponProg:1"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Dragon Bounties Complete = 6",
+                        "access_rules":[
+                            "MainQuestProg:7, WeaponProg:2"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Province",
+                        "x": 450,
+                        "y": 1150
+                    }
+                ]
+            },
+            {
+                "name": "Home Ownerships",
+                "sections": [
+                    {
+                        "name": "Townhomes Owned = 1",
+                        "access_rules":[
+                            "MainQuestProg:4, WeaponProg:1"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Townhomes Owned = 3",
+                        "access_rules":[
+                            "MainQuestProg:7, WeaponProg:2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Townhomes Owned = 5",
+                        "access_rules":[
+                            "MainQuestProg:11, WeaponProg:2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Land Owned",
+                        "access_rules":[
+                            "MainQuestProg:5, WeaponProg:1"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Build 3 Wings on 1 Land",
+                        "access_rules":[
+                            "MainQuestProg:10, WeaponProg:2, Smithing"
+                        ],
+                        "item_count": 1
+
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Province",
+                        "x": 550,
+                        "y": 1150
+                    }
+                ]
+            },
+            {
+                "name": "Fishery Quests",
+                "sections": [
+                    {
+                        "name": "Angler Acquaintances",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Catch of the Day",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Caught in the Rain",
+                        "access_rules":[
+                            "MainQuestProg:2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Frozen Fish",
+                        "access_rules":[
+                            "MainQuestProg:5, WeaponProg:1"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Darkest Depths",
+                        "access_rules":[
+                            "MainQuestProg:9, WeaponProg:2"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Province",
+                        "x": 1750,
+                        "y": 1240
+                    },
+                    {
+                        "map": "The Rift",
+                        "x": 316,
+                        "y": 170
+                    }
+                ]
+            },
+            {
+                "name": "Riverwood",
+                "sections": [
+                    {
+                        "name": "Before the Storm",
+                        "access_rules": [
+                            "MainQuestProg:1"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blade in the Dark",
+                        "access_rules":[
+                            "MainQuestProg:6, WeaponProg:1"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Diplomatic Immunity",
+                        "access_rules":[
+                            "MainQuestProg:8, WeaponProg:2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "A Cornered Rat",
+                        "access_rules":[
+                            "MainQuestProg:9, WeaponProg:2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Alduin's Wall",
+                        "access_rules":[
+                            "MainQuestProg:10, WeaponProg:2"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Province",
+                        "x": 1070,
+                        "y": 1040
+                    },
+                    {
+                        "map": "Falkreath Hold",
+                        "x": 300,
+                        "y": 90
+                    }
+                ]
+            },
+            {
+                "name": "Whiterun",
+                "access_rules": [
+                    "MainQuestProg:1", "Speech"
+                ],
+                "sections": [
+                    {
+                        "name": "Bleak Falls Barrow",
+                        "access_rules":[
+                            "MainQuestProg:2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Dragon Rising",
+                        "access_rules":[
+                            "MainQuestProg:3, WeaponProg:1"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The World-Eater's Eyrie/Victory!",
+                        "access_rules":[
+                            "MainQuestProg:15, WeaponProg:2, FactionComplete:1"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Whispering Door",
+                        "access_rules":[
+                            "MainQuestProg:12, WeaponProg:2"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Province",
+                        "x": 1113,
+                        "y": 800
+                    },
+                    {
+                        "map": "Whiterun Hold",
+                        "x": 360,
+                        "y": 100
+                    }
+                ]
+            },
+            {
+                "name": "High Hrothgar",
+                "sections": [
+                    {
+                        "name": "Way of the Voice",
+                        "access_rules":[
+                            "MainQuestProg:4, WeaponProg:1"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Horn of Jurgen Windcaller Note",
+                        "access_rules":[
+                            "MainQuestProg:5, WeaponProg:1"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Jurgen Horn Returned",
+                        "access_rules":[
+                            "MainQuestProg:7, WeaponProg:2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Throat of the World",
+                        "access_rules":[
+                            "MainQuestProg:11, WeaponProg:2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Elder Knowledge",
+                        "access_rules":[
+                            "MainQuestProg:12, WeaponProg:2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Alduin's Bane",
+                        "access_rules":[
+                            "MainQuestProg:13, WeaponProg:2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Fallen",
+                        "access_rules":[
+                            "MainQuestProg:14, WeaponProg:2"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Province",
+                        "x": 1253,
+                        "y": 900
+                    },
+                    {
+                        "map": "Whiterun Hold",
+                        "x": 450,
+                        "y": 175
+                    }
+                ]
+            },
+            {
+                "name": "The Companions",
+                "access_rules":[
+                    "OneHanded", "TwoHanded"
+                ],
+                "sections": [
+                    {
+                        "name": "Take Up Arms",
+                        "access_rules":[
+                            "CompanionProg:1"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Proving Honor",
+                        "access_rules":[
+                            "CompanionProg:2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Silver Hand",
+                        "access_rules":[
+                            "CompanionProg:3"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blood's Honor",
+                        "access_rules":[
+                            "CompanionProg:4"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purity of Revenge",
+                        "access_rules":[
+                            "CompanionProg:5"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Glory of the Dead",
+                        "access_rules":[
+                            "CompanionProg:6"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Province",
+                        "x": 1050,
+                        "y": 800
+                    },
+                    {
+                        "map": "Whiterun Hold",
+                        "x": 300,
+                        "y": 100
+                    }
+                ]
+            },
+            {
+                "name": "The College of Winterhold",
+                "access_rules":[
+                    "Destruction, Restoration, SpellProg:1", "Conjuration, Restoration, SpellProg:1", "Illusion, Restoration, SpellProg:1", "Alteration, Restoration, SpellProg:1"
+                ],
+                "sections": [
+                    {
+                        "name": "First Lessons",
+                        "access_rules":[
+                            "CollegeProg:1"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Under Saarthal",
+                        "access_rules":[
+                            "CollegeProg:2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hitting the Books",
+                        "access_rules":[
+                            "CollegeProg:3"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Good Intentions",
+                        "access_rules":[
+                            "CollegeProg:4"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Revealing the Unseen",
+                        "access_rules":[
+                            "CollegeProg:5, Destruction"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Containment",
+                        "access_rules":[
+                            "CollegeProg:6"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Staff of Magnus",
+                        "access_rules":[
+                            "CollegeProg:7"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Eye of Magnus",
+                        "access_rules":[
+                            "CollegeProg:8"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Discerning the Transmundane",
+                        "access_rules":[
+                            "MainQuestProg:12, WeaponProg:2"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Province",
+                        "x": 1550,
+                        "y": 280
+                    },
+                    {
+                        "map": "Winterhold",
+                        "x": 270,
+                        "y": 25
+                    }
+                ]
+            },
+            {
+                "name": "The Thieves' Guild",
+                "access_rules":[
+                    "Sneak, Pickpocket, Lockpicking"
+                ],
+                "sections": [
+                    {
+                        "name": "Chance Arrangement",
+                        "access_rules":[
+                            "GuildProg:1"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Taking Care of Business",
+                        "access_rules":[
+                            "GuildProg:2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Loud and Clear",
+                        "access_rules":[
+                            "GuildProg:3"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Dampened Spirits",
+                        "access_rules":[
+                            "GuildProg:4"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Scoundrels Folly",
+                        "access_rules":[
+                            "GuildProg:5"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Speaking with Silence",
+                        "access_rules":[
+                            "GuildProg:6"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hard Answers",
+                        "access_rules":[
+                            "GuildProg:7"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pursuit",
+                        "access_rules":[
+                            "GuildProg:8"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Trinity Restored",
+                        "access_rules":[
+                            "GuildProg:9"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blindsighted",
+                        "access_rules":[
+                            "GuildProg:10"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Darkness Returns",
+                        "access_rules":[
+                            "GuildProg:11"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Province",
+                        "x": 1875,
+                        "y": 1240
+                    },
+                    {
+                        "map": "The Rift",
+                        "x": 400,
+                        "y": 170
+                    }
+                ]
+            },
+            {
+                "name": "Azura's Shrine",
+                "access_rules":[
+                    "MainQuestProg:3, WeaponProg:1"
+                ],
+                "sections": [
+                    {
+                        "name": "The Black Star",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Province",
+                        "x": 1510,
+                        "y": 430
+                    },
+                    {
+                        "map": "Winterhold",
+                        "x": 230,
+                        "y": 130
+                    }
+                ]
+            },
+            {
+                "name": "Falkreath",
+                "sections": [
+                    {
+                        "name": "Ill Met by Moonlight",
+                        "access_rules":[
+                            "MainQuestProg:3, WeaponProg:1"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "A Daedra's Best Friend",
+                        "access_rules":[
+                            "MainQuestProg:6, WeaponProg:1"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Province",
+                        "x": 869,
+                        "y": 1180
+                    },
+                    {
+                        "map": "Falkreath Hold",
+                        "x": 175,
+                        "y": 176
+                    }
+                ]
+            },
+            {
+                "name": "Markarth",
+                "sections": [
+                    {
+                        "name": "The House of Horrors",
+                        "access_rules":[
+                            "MainQuestProg:3, WeaponProg:1"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Taste of Death",
+                        "access_rules":[
+                            "MainQuestProg:3, WeaponProg:1"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Province",
+                        "x": 219,
+                        "y": 759
+                    },
+                    {
+                        "map": "The Reach",
+                        "x": 55,
+                        "y": 225
+                    }
+                ]
+            },
+            {
+                "name": "Solitude",
+                "sections": [
+                    {
+                        "name": "The Mind of Madness",
+                        "access_rules":[
+                            "MainQuestProg:3, WeaponProg:1"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Province",
+                        "x": 696,
+                        "y": 303
+                    },
+                    {
+                        "map": "Haafingar",
+                        "x": 308,
+                        "y": 116
+                    }
+                ]
+            },
+            {
+                "name": "Dawnstar",
+                "sections": [
+                    {
+                        "name": "Waking Nightmare",
+                        "access_rules":[
+                            "MainQuestProg:3, WeaponProg:1"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pieces of the Past",
+                        "access_rules":[
+                            "MainQuestProg:12, WeaponProg:2"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Province",
+                        "x": 1152,
+                        "y": 325
+                    },
+                    {
+                        "map": "The Pale",
+                        "x": 186,
+                        "y": 30
+                    }
+                ]
+            },
+            {
+                "name": "Largashbur",
+                "sections": [
+                    {
+                        "name": "The Cursed Tribe",
+                        "access_rules":[
+                            "MainQuestProg:6, WeaponProg:1"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Province",
+                        "x": 1630,
+                        "y": 1330
+                    },
+                    {
+                        "map": "The Rift",
+                        "x": 250,
+                        "y": 210
+                    }
+                ]
+            },
+            {
+                "name": "Statue to Meridia",
+                "sections": [
+                    {
+                        "name": "The Break of Dawn",
+                        "access_rules":[
+                            "MainQuestProg:6, WeaponProg:1"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Province",
+                        "x": 520,
+                        "y": 370
+                    },
+                    {
+                        "map": "Haafingar",
+                        "x": 180,
+                        "y": 150
+                    }
+                ]
+            },
+            {
+                "name": "Shrine to Peryite",
+                "sections": [
+                    {
+                        "name": "The Only Cure",
+                        "access_rules":[
+                            "MainQuestProg:6, WeaponProg:1"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Province",
+                        "x": 330,
+                        "y": 650
+                    },
+                    {
+                        "map": "The Reach",
+                        "x": 120,
+                        "y": 160
+                    }
+                ]
+            },
+            {
+                "name": "Rorikstead",
+                "sections": [
+                    {
+                        "name": "A Night to Remember",
+                        "access_rules":[
+                            "MainQuestProg:6, WeaponProg:1"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Province",
+                        "x": 650,
+                        "y": 810
+                    },
+                    {
+                        "map": "Whiterun Hold",
+                        "x": 77,
+                        "y": 45
+                    }
+                ]
+            },
+            {
+                "name": "Sacellum of Boethiah",
+                "sections": [
+                    {
+                        "name": "Boethiah's Calling",
+                        "access_rules":[
+                            "MainQuestProg:12, WeaponProg:2"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Province",
+                        "x": 1675,
+                        "y": 700
+                    },
+                    {
+                        "map": "Eastmarch",
+                        "x": 230,
+                        "y": 130
+                    }
+                ]
+            }
+        ]
+    }
+]

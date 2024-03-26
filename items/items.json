@@ -1,0 +1,328 @@
+//more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#items
+[
+    {
+        "name": "Main Quest Progressive",
+        "type": "consumable",
+        "img": "images/items/progressives/MainQuestProgressive.png",
+        "max_quantity": 15,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "MainQuestProg"
+    },
+    {
+        "name": "College Progressive",
+        "type": "consumable",
+        "img": "images/items/progressives/CollegeProgressive.png",
+        "max_quantity": 8,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "CollegeProg"
+    },
+    {
+        "name": "Companion Progressive",
+        "type": "consumable",
+        "img": "images/items/progressives/CompanionProgressive.png",
+        "max_quantity": 6,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "CompanionProg"
+    },
+    {
+        "name": "Guild Progressive",
+        "type": "consumable",
+        "img": "images/items/progressives/GuildProgressive.png",
+        "max_quantity": 11,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "GuildProg"
+    },
+    {
+        "name": "Faction Complete",
+        "type": "consumable",
+        "img": "images/items/FactionComplete.png",
+        "max_quantity": 3,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "FactionComplete"
+    },
+    {
+        "name": "Progressive Weapon Tier",
+        "type": "consumable",
+        "img": "images/items/WeaponTier.png",
+        "max_quantity": 7,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "WeaponProg"
+    },
+    {
+        "name": "Progressive Light Armor Tier",
+        "type": "consumable",
+        "img": "images/items/LightArmorTier.png",
+        "max_quantity": 5,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "LightArmProg"
+    },
+    {
+        "name": "Progressive Heavy Armor Tier",
+        "type": "consumable",
+        "img": "images/items/HeavyArmorTier.png",
+        "max_quantity": 7,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "HeavyArmProg"
+    },
+    {
+        "name": "Progressive Spell Tier",
+        "type": "consumable",
+        "img": "images/items/SpellTier.png",
+        "max_quantity": 4,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "SpellProg"
+    },
+	    {
+        "name": "Archery",
+        "type": "toggle",
+        "img": "images/items/skills/offensive/Archery.png",
+        "codes": "Archery, Offensive"
+    },
+    {
+        "name": "Conjuration",
+        "type": "toggle",
+        "img": "images/items/skills/offensive/Conjuration.png",
+        "codes": "Conjuration, Offensive"
+    },
+    {
+        "name": "Destruction",
+        "type": "toggle",
+        "img": "images/items/skills/offensive/Destruction.png",
+        "codes": "Destruction, Offensive"
+    },
+    {
+        "name": "One-Handed",
+        "type": "toggle",
+        "img": "images/items/skills/offensive/OneHanded.png",
+        "codes": "OneHanded, Offensive"
+    },
+    {
+        "name": "Speech",
+        "type": "toggle",
+        "img": "images/items/skills/offensive/Speech.png",
+        "codes": "Speech, Offensive"
+    },
+    {
+        "name": "Two-Handed",
+        "type": "toggle",
+        "img": "images/items/skills/offensive/TwoHanded.png",
+        "codes": "TwoHanded, Offensive"
+    },
+    {
+        "name": "Alteration",
+        "type": "toggle",
+        "img": "images/items/skills/defensive/Alteration.png",
+        "codes": "Alteration, Defensive"
+    },
+    {
+        "name": "Block",
+        "type": "toggle",
+        "img": "images/items/skills/defensive/Block.png",
+        "codes": "Block, Defensive"
+    },
+    {
+        "name": "Heavy Armor",
+        "type": "toggle",
+        "img": "images/items/skills/defensive/HeavyArmor.png",
+        "codes": "HeavyArmor, Defensive"
+    },
+    {
+        "name": "Light Armor",
+        "type": "toggle",
+        "img": "images/items/skills/defensive/LightArmor.png",
+        "codes": "LightArmor, Defensive"
+    },
+    {
+        "name": "Restoration",
+        "type": "toggle",
+        "img": "images/items/skills/defensive/Restoration.png",
+        "codes": "Restoration, Defensive"
+    },
+    {
+        "name": "Sneak",
+        "type": "toggle",
+        "img": "images/items/skills/defensive/Sneak.png",
+        "codes": "Sneak, Defensive"
+    },
+    {
+        "name": "Alchemy",
+        "type": "toggle",
+        "img": "images/items/skills/support/Alchemy.png",
+        "codes": "Alchemy, Support"
+    },
+    {
+        "name": "Enchanting",
+        "type": "toggle",
+        "img": "images/items/skills/support/Enchanting.png",
+        "codes": "Enchanting, Support"
+    },
+    {
+        "name": "Illusion",
+        "type": "toggle",
+        "img": "images/items/skills/support/Illusion.png",
+        "codes": "Illusion, Support"
+    },
+    {
+        "name": "Lockpicking",
+        "type": "toggle",
+        "img": "images/items/skills/support/Lockpicking.png",
+        "codes": "Lockpicking, Support"
+    },
+    {
+        "name": "Pickpocket",
+        "type": "toggle",
+        "img": "images/items/skills/support/Pickpocket.png",
+        "codes": "Pickpocket, Support"
+    },
+    {
+        "name": "Smithing",
+        "type": "toggle",
+        "img": "images/items/skills/support/Smithing.png",
+        "codes": "Smithing, Support"
+    },
+//This section is the player-tracking items for eventual locations. Bounties and the like.
+    {
+        "name": "Bandit Bounties",
+        "type": "consumable",
+        "img": "images/items/locations/BanditBounties.png",
+        "max_quantity": 6,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "BanditBounties"
+    },
+    {
+        "name": "Forsworn Bounties",
+        "type": "consumable",
+        "img": "images/items/locations/ForswornBounties.png",
+        "max_quantity": 6,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "ForswornBounties"
+    },
+    {
+        "name": "Dragon Bounties",
+        "type": "consumable",
+        "img": "images/items/locations/DragonBounties.png",
+        "max_quantity": 6,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "DragonBounties"
+    },
+    {
+        "name": "Dragons Slain",
+        "type": "consumable",
+        "img": "images/items/locations/DragonsSlain.png",
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "DragonsSlain"
+    },
+    {
+        "name": "Prey Slain",
+        "type": "consumable",
+        "img": "images/items/locations/PreySlain.png",
+        "max_quantity": 3,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "PreySlain"
+    },
+    {
+        "name": "Word Walls Read",
+        "type": "consumable",
+        "img": "images/items/locations/WordWalls.png",
+        "max_quantity": 5,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "WordWalls"
+    },
+    {
+        "name": "Standing Stones Found",
+        "type": "consumable",
+        "img": "images/items/locations/StandingStonesFound.png",
+        "max_quantity": 13,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "StandingStones"
+    },
+    {
+        "name": "Town Homes Owned",
+        "type": "consumable",
+        "img": "images/items/locations/TownHomes.png",
+        "max_quantity": 5,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "TownHomes"
+    },
+    {
+        "name": "Thaneships",
+        "type": "consumable",
+        "img": "images/items/locations/Thaneships.png",
+        "max_quantity": 3,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "Thaneships"
+    }
+]

@@ -1,0 +1,63 @@
+//more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#maps
+[
+    {
+        "name": "Province",
+        "location_size": 48,
+        "location_border_thickness": 4,
+        "img": "images/maps/Province.png"
+    },
+    {
+        "name": "Haafingar",
+        "location_size": 48,
+        "location_border_thickness": 4,
+        "img": "images/maps/Haafingar.png"
+    },
+	{
+        "name": "The Reach",
+        "location_size": 48,
+        "location_border_thickness": 4,
+        "img": "images/maps/TheReach.png"
+    },
+	{
+        "name": "Hjaalmarch",
+        "location_size": 48,
+        "location_border_thickness": 4,
+        "img": "images/maps/Hjaalmarch.png"
+    },
+	{
+        "name": "Whiterun Hold",
+        "location_size": 48,
+        "location_border_thickness": 4,
+        "img": "images/maps/WhiterunHold.png"
+    },
+	    {
+        "name": "Falkreath Hold",
+        "location_size": 48,
+        "location_border_thickness": 4,
+        "img": "images/maps/FalkreathHold.png"
+    },
+	    {
+        "name": "The Pale",
+        "location_size": 48,
+        "location_border_thickness": 4,
+        "img": "images/maps/ThePale.png"
+    },
+	    {
+        "name": "Winterhold",
+        "location_size": 48,
+        "location_border_thickness": 4,
+        "img": "images/maps/Winterhold.png"
+    },
+	    {
+        "name": "Eastmarch",
+        "location_size": 48,
+        "location_border_thickness": 4,
+        "img": "images/maps/Eastmarch.png"
+    },
+	    {
+        "name": "The Rift",
+        "location_size": 48,
+        "location_border_thickness": 4,
+        "img": "images/maps/TheRift.png"
+    }
+]
