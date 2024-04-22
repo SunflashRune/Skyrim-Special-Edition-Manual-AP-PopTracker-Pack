@@ -17,7 +17,7 @@ LOCATION_MAPPING = {
     [17067246512] = {"@Province Locations/High Hrothgar/Elder Knowledge"},
     [17067246513] = {"@Province Locations/High Hrothgar/Alduin's Bane"},
     [17067246514] = {"@Province Locations/High Hrothgar/The Fallen"},
-    [17067246515] = {"@Province Locations/Whiterune/The World-Eater's Eyrie"}
+    [17067246515] = {"@Province Locations/Whiterune/The World-Eater's Eyrie"},
     [17067246516] = {"@Province Locations/The Companions/Take Up Arms"},
     [17067246517] = {"@Province Locations/The Companions/Proving Honor"},
     [17067246518] = {"@Province Locations/The Companions/The Silver Hand"},
@@ -102,7 +102,7 @@ LOCATION_MAPPING = {
     [17067246597] = {"@Province Locations/Misc Objectives/Dragons Slain = 10"},
     [17067246598] = {"@Province Locations/Misc Objectives/Word Walls Read = 1"},
     [17067246599] = {"@Province Locations/Misc Objectives/Word Walls Read = 3"},
-    [17067246568] = {"@Province Locations/Misc Objectives/Word Walls Read = 5"},
+    [17067246600] = {"@Province Locations/Misc Objectives/Word Walls Read = 5"},
     [17067246601] = {"@Province Locations/Home Ownerships/Townhomes Owned = 1"},
     [17067246602] = {"@Province Locations/Home Ownerships/Townhomes Owned = 3"},
     [17067246603] = {"@Province Locations/Home Ownerships/Townhomes Owned = 5"},
@@ -114,8 +114,10 @@ LOCATION_MAPPING = {
     [17067246609] = {"@Province Locations/Home Ownerships/Build 3 Wings on 1 Land"},
     [17067246610] = {"@Province Locations/Fishery Quests/Angler Acquainttances"},
     [17067246611] = {"@Province Locations/Fishery Quests/Catch of the Day"},
-    [17067246612] = {"@Province Locations/Fishery Quests/Caught in the Rain"},
-    [17067246613] = {"@Province Locations/Fishery Quests/Frozen Fish"},
-    [17067246614] = {"@Province Locations/Fishery Quests/Darkest Depths"},
+    [17067246612] = {"@Province Locations/Fishery Quests/In a Pinch"},
+    [17067246613] = {"@Province Locations/Fishery Quests/Caught in the Rain"},
+    [17067246614] = {"@Province Locations/Fishery Quests/Crustacean Extermination"},
+    [17067246615] = {"@Province Locations/Fishery Quests/Frozen Fish"},
+    [17067246616] = {"@Province Locations/Fishery Quests/Darkest Depths"},
     [17067246584] = {"@Province Locations/Whiterun/The World-Eater's Eyrie/Victory!"}
 }
