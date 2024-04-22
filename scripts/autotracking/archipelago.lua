@@ -58,6 +58,11 @@ function onClear(slot_data)
             end
         end
     end
+
+    --print(dump_table(SLOT_DATA))
+
+    --if slot_data["Goal_Set"]
+
     LOCAL_ITEMS = {}
     GLOBAL_ITEMS = {}
     -- manually run snes interface functions after onClear in case we are already ingame

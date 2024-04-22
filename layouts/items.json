@@ -19,17 +19,19 @@
                         "rows": [
                             [
                                 "MainQuestProg",
-                                "CollegeProg",
-                                "CompanionProg",
-                                "GuildProg",
+                                "WeaponProg",
+                                "SpellProg",
+                                "LightArmProg",
+                                "HeavyArmProg",
                                 "FactionComplete"
                             ],
                             [
-                                "WeaponProg",
-								"SpellProg",
-								"",
-                                "LightArmProg",
-                                "HeavyArmProg"
+                                "CompanionProg",
+								"CollegeProg",
+								"GuildProg",
+                                "BrotherProg",
+                                "DawnProg",
+                                "DragProg"
                             ],
                             [
                                 "Archery",

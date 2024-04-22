@@ -59,5 +59,11 @@
         "location_size": 48,
         "location_border_thickness": 4,
         "img": "images/maps/TheRift.png"
+    },
+        {
+        "name": "Solstheim",
+        "location_size": 48,
+        "location_border_thickness": 4,
+        "img": "images/maps/Solstheim.png"
     }
 ]

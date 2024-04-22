@@ -129,6 +129,15 @@
                                     "The Rift"
                                 ]
                             }
+                        },
+                        {
+                            "title": "Solstheim",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Solstheim"
+                                ]
+                            }
                         }
                     ]
                 }
@@ -261,6 +270,15 @@
                                 "type": "map",
                                 "maps": [
                                     "The Rift"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Solstheim",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Solstheim"
                                 ]
                             }
                         }

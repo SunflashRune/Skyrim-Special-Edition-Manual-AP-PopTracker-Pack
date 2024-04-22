@@ -1,6 +1,12 @@
 //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#items
 [
     {
+        "name": "Goal Complete",
+        "type": "toggle",
+        "img": "",
+        "codes": "GoalComp"
+    },
+    {
         "name": "Main Quest Progressive",
         "type": "consumable",
         "img": "images/items/progressives/MainQuestProgressive.png",
@@ -9,7 +15,7 @@
         "decrement": 1,
         "initial_quantity": 0,
         "overlay_background": "#000000",
-        "overlay_font_size": 8,
+        "overlay_font_size": 14,
         "codes": "MainQuestProg"
     },
     {
@@ -21,7 +27,7 @@
         "decrement": 1,
         "initial_quantity": 0,
         "overlay_background": "#000000",
-        "overlay_font_size": 8,
+        "overlay_font_size": 14,
         "codes": "CollegeProg"
     },
     {
@@ -33,7 +39,7 @@
         "decrement": 1,
         "initial_quantity": 0,
         "overlay_background": "#000000",
-        "overlay_font_size": 8,
+        "overlay_font_size": 14,
         "codes": "CompanionProg"
     },
     {
@@ -45,8 +51,44 @@
         "decrement": 1,
         "initial_quantity": 0,
         "overlay_background": "#000000",
-        "overlay_font_size": 8,
+        "overlay_font_size": 14,
         "codes": "GuildProg"
+    },
+    {
+        "name": "Brotherhood Progressive",
+        "type": "consumable",
+        "img": "images/items/progressives/BrotherhoodProgressive.png",
+        "max_quantity": 13,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 14,
+        "codes": "BrotherProg"
+    },
+    {
+        "name": "Dawnguard Progressive",
+        "type": "consumable",
+        "img": "images/items/progressives/DawnguardProgressive.png",
+        "max_quantity": 11,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 14,
+        "codes": "DawnProg"
+    },
+    {
+        "name": "Dragonborn Progressive",
+        "type": "consumable",
+        "img": "images/items/progressives/DragonbornProgressive.png",
+        "max_quantity": 7,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 14,
+        "codes": "DragProg"
     },
     {
         "name": "Faction Complete",
@@ -57,7 +99,7 @@
         "decrement": 1,
         "initial_quantity": 0,
         "overlay_background": "#000000",
-        "overlay_font_size": 8,
+        "overlay_font_size": 14,
         "codes": "FactionComplete"
     },
     {
@@ -69,7 +111,7 @@
         "decrement": 1,
         "initial_quantity": 0,
         "overlay_background": "#000000",
-        "overlay_font_size": 8,
+        "overlay_font_size": 14,
         "codes": "WeaponProg"
     },
     {
@@ -81,7 +123,7 @@
         "decrement": 1,
         "initial_quantity": 0,
         "overlay_background": "#000000",
-        "overlay_font_size": 8,
+        "overlay_font_size": 14,
         "codes": "LightArmProg"
     },
     {
@@ -93,7 +135,7 @@
         "decrement": 1,
         "initial_quantity": 0,
         "overlay_background": "#000000",
-        "overlay_font_size": 8,
+        "overlay_font_size": 14,
         "codes": "HeavyArmProg"
     },
     {
@@ -105,7 +147,7 @@
         "decrement": 1,
         "initial_quantity": 0,
         "overlay_background": "#000000",
-        "overlay_font_size": 8,
+        "overlay_font_size": 14,
         "codes": "SpellProg"
     },
 	    {
@@ -226,7 +268,7 @@
         "decrement": 1,
         "initial_quantity": 0,
         "overlay_background": "#000000",
-        "overlay_font_size": 8,
+        "overlay_font_size": 14,
         "codes": "BanditBounties"
     },
     {
@@ -238,7 +280,7 @@
         "decrement": 1,
         "initial_quantity": 0,
         "overlay_background": "#000000",
-        "overlay_font_size": 8,
+        "overlay_font_size": 14,
         "codes": "ForswornBounties"
     },
     {
@@ -250,7 +292,7 @@
         "decrement": 1,
         "initial_quantity": 0,
         "overlay_background": "#000000",
-        "overlay_font_size": 8,
+        "overlay_font_size": 14,
         "codes": "DragonBounties"
     },
     {
@@ -262,7 +304,7 @@
         "decrement": 1,
         "initial_quantity": 0,
         "overlay_background": "#000000",
-        "overlay_font_size": 8,
+        "overlay_font_size": 14,
         "codes": "DragonsSlain"
     },
     {
@@ -274,7 +316,7 @@
         "decrement": 1,
         "initial_quantity": 0,
         "overlay_background": "#000000",
-        "overlay_font_size": 8,
+        "overlay_font_size": 14,
         "codes": "PreySlain"
     },
     {
@@ -286,7 +328,7 @@
         "decrement": 1,
         "initial_quantity": 0,
         "overlay_background": "#000000",
-        "overlay_font_size": 8,
+        "overlay_font_size": 14,
         "codes": "WordWalls"
     },
     {
@@ -298,7 +340,7 @@
         "decrement": 1,
         "initial_quantity": 0,
         "overlay_background": "#000000",
-        "overlay_font_size": 8,
+        "overlay_font_size": 14,
         "codes": "StandingStones"
     },
     {
@@ -310,7 +352,7 @@
         "decrement": 1,
         "initial_quantity": 0,
         "overlay_background": "#000000",
-        "overlay_font_size": 8,
+        "overlay_font_size": 14,
         "codes": "TownHomes"
     },
     {
@@ -322,7 +364,7 @@
         "decrement": 1,
         "initial_quantity": 0,
         "overlay_background": "#000000",
-        "overlay_font_size": 8,
+        "overlay_font_size": 14,
         "codes": "Thaneships"
     }
 ]

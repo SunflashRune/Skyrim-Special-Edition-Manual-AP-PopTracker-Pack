@@ -224,9 +224,23 @@
                         "item_count": 1
                     },
                     {
+                        "name": "In a Pinch",
+                        "access_rules":[
+                            "MainQuestProg:1"
+                        ],
+                        "item_count": 1
+                    },
+                    {
                         "name": "Caught in the Rain",
                         "access_rules":[
                             "MainQuestProg:2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Crustacean Extermination",
+                        "access_rules":[
+                            "MainQuestProg:4"
                         ],
                         "item_count": 1
                     },
@@ -331,7 +345,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "The World-Eater's Eyrie/Victory!",
+                        "name": "The World-Eater's Eyrie",
                         "access_rules":[
                             "MainQuestProg:15, WeaponProg:2, FactionComplete:1"
                         ],
@@ -663,6 +677,466 @@
                         "map": "The Rift",
                         "x": 400,
                         "y": 170
+                    }
+                ]
+            },
+            {
+                "name": "Windhelm",
+                "sections": [
+                    {
+                        "name": "Innocence Lost",
+                        "access_rules":[
+                            "BrotherProg:1, Sneak, Lockpicking"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Dragonborn",
+                        "access_rules":[
+                            "DragProg:1"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Province",
+                        "x": 1600 ,
+                        "y": 625
+                    },
+                    {
+                        "map": "Eastmarch",
+                        "x": 175,
+                        "y": 75
+                    }
+                ]
+            },
+            {
+                "name": "Abandoned Shack",
+                "sections": [
+                    {
+                        "name": "With Friends like These",
+                        "access_rules":[
+                            "BrotherProg:2"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Province",
+                        "x": 775,
+                        "y": 350
+                    },
+                    {
+                        "map": "Hjaalmarch",
+                        "x": 175,
+                        "y": 50
+                    }
+                ]
+            },
+            {
+                "name": "Dark Brotherhood Sanctuary",
+                "sections": [
+                    {
+                        "name": "Sanctuary",
+                        "access_rules":[
+                            "BrotherProg:3"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mourning Never Comes",
+                        "access_rules":[
+                            "BrotherProg:4"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Whispers in the Dark",
+                        "access_rules":[
+                            "BrotherProg:5"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Silence Has Been Broken",
+                        "access_rules":[
+                            "BrotherProg:6"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bound Until Death",
+                        "access_rules":[
+                            "BrotherProg:7"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Breaching Security",
+                        "access_rules":[
+                            "BrotherProg:8"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Cure for Madness",
+                        "access_rules":[
+                            "BrotherProg:9"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Recipe for Disaster",
+                        "access_rules":[
+                            "BrotherProg:10"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "To Kill an Empire",
+                        "access_rules":[
+                            "BrotherProg:11"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Death Incarnate",
+                        "access_rules":[
+                            "BrotherProg:12"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hail Sithis!",
+                        "access_rules":[
+                            "BrotherProg:13"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Province",
+                        "x": 810,
+                        "y": 1180
+                    },
+                    {
+                        "map": "Falkreath Hold",
+                        "x": 110,
+                        "y": 176
+                    }
+                ]
+            },
+            {
+                "name": "Fort Dawnguard",
+                "sections": [
+                    {
+                        "name": "Dawnguard",
+                        "access_rules":[
+                            "DawnProg:1"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Awakening",
+                        "access_rules":[
+                            "DawnProg:2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodline",
+                        "access_rules":[
+                            "DawnProg:3"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "A New Order",
+                        "access_rules":[
+                            "DawnProg:4"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Prophet",
+                        "access_rules":[
+                            "DawnProg:5"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Scroll Scouting",
+                        "access_rules":[
+                            "DawnProg:6"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chasing Echoes",
+                        "access_rules":[
+                            "DawnProg:7"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Seeking Disclosure",
+                        "access_rules":[
+                            "DawnProg:8"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kindred Judgment",
+                        "access_rules":[
+                            "DawnProg:11"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Province",
+                        "x": 1875,
+                        "y": 1320
+                    },
+                    {
+                        "map": "The Rift",
+                        "x": 400,
+                        "y": 240
+                    }
+                ]
+            },
+            {
+                "name": "Castle Volkihar",
+                "sections": [
+                    {
+                        "name": "The Bloodstone Chalice",
+                        "ref": "Province Locations/Fort Dawnguard/A New Order"
+                    },
+                    {
+                        "name": "Prophet",
+                        "ref": "Province Locations/Fort Dawnguard/Prophet"
+                    },
+                    {
+                        "name": "Scroll Scouting",
+                        "ref": "Province Locations/Fort Dawnguard/Scroll Scouting"
+                    },
+                    {
+                        "name": "Chasing Echoes",
+                        "ref": "Province Locations/Fort Dawnguard/Chasing Echoes"
+                    },
+                    {
+                        "name": "Seeking Disclosure",
+                        "ref": "Province Locations/Fort Dawnguard/Seeking Disclosure"
+                    },
+                    {
+                        "name": "Kindred Judgment",
+                        "ref": "Province Locations/Fort Dawnguard/Kindred Judgment"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Province",
+                        "x": 260,
+                        "y": 200
+                    },
+                    {
+                        "map": "Haafingar",
+                        "x": 180,
+                        "y": 50
+                    }
+                ]
+            },
+            {
+                "name": "Ancestor Glade",
+                "sections": [
+                    {
+                        "name": "Unseen Visions",
+                        "access_rules":[
+                            "DawnProg:9"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Province",
+                        "x": 935,
+                        "y": 1225
+                    },
+                    {
+                        "map": "Falkreath Hold",
+                        "x": 245,
+                        "y": 210
+                    }
+                ]
+            },
+            {
+                "name": "The Forgotten Vale",
+                "sections": [
+                    {
+                        "name": "Touching the Sky",
+                        "access_rules":[
+                            "DawnProg:10"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Province",
+                        "x": 285,
+                        "y": 340
+                    },
+                    {
+                        "map": "Haafingar",
+                        "x": 95,
+                        "y": 140
+                    }
+                ]
+            },
+            {
+                "name": "Solstheim",
+                "sections": [
+                    {
+                        "name": "The Temple of Miraak",
+                        "access_rules":[
+                            "DragProg:2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Fate of the Skaal",
+                        "access_rules":[
+                            "DragProg:3"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cleansing the Stones",
+                        "access_rules":[
+                            "DragProg:4"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Path of Knowledge",
+                        "access_rules":[
+                            "DragProg:5"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Gardener of Men",
+                        "access_rules":[
+                            "DragProg:6"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "At the Summit of Apocrypha",
+                        "access_rules":[
+                            "DragProg:7"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Province",
+                        "x": 1800,
+                        "y": 320
+                    }
+                ]
+            },
+            {
+                "name": "Raven Rock",
+                "sections": [
+                    {
+                        "name": "Dragonborn",
+                        "ref": "Province Locations/Windhelm/Dragonborn"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Solstheim",
+                        "x": 210,
+                        "y": 525
+                    }
+                ]
+            },
+            {
+                "name": "Temple of Miraak",
+                "sections": [
+                    {
+                        "name": "The Temple of Miraak",
+                        "ref": "Province Locations/Solstheim/The Temple of Miraak"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Solstheim",
+                        "x": 400,
+                        "y": 350
+                    }
+                ]
+            },
+            {
+                "name": "Skaal Village",
+                "sections": [
+                    {
+                        "name": "The Fate of the Skaal",
+                        "ref": "Province Locations/Solstheim/The Fate of the Skaal"
+                    },
+                    {
+                        "name": "Cleansing the Stones",
+                        "ref": "Province Locations/Solstheim/Cleansing the Stones"
+                    },
+                    {
+                        "name": "As the Summit of Apocrypha",
+                        "ref": "Province Locations/Solstheim/At the Summit of Apocrypha"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Solstheim",
+                        "x": 480,
+                        "y": 300
+                    }
+                ]
+            },
+            {
+                "name": "Tel Mithryn",
+                "sections": [
+                    {
+                        "name": "The Path of Knowledge",
+                        "ref": "Province Locations/Solstheim/The Path of Knowledge"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Solstheim",
+                        "x": 500,
+                        "y": 590
+                    }
+                ]
+            },
+            {
+                "name": "Nchardak",
+                "sections": [
+                    {
+                        "name": "The Gardener of Men",
+                        "ref": "Province Locations/Solstheim/The Gardener of Men"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Solstheim",
+                        "x": 570,
+                        "y": 420
                     }
                 ]
             },
