@@ -86,12 +86,5 @@ LOCATION_MAPPING = {
     [16867136580] = {"@Province Locations/Fishery Quests/Caught in the Rain"},
     [16867136581] = {"@Province Locations/Fishery Quests/Frozen Fish"},
     [16867136582] = {"@Province Locations/Fishery Quests/Darkest Depths"},
-    [16867136583] = {"@Province Locations/Whiterun/The World-Eater's Eyrie/Victory!"},
-    [16867136584] = {"@Province Locations/"},
-    [16867136585] = {"@Province Locations/"},
-    [16867136586] = {"@Province Locations/"},
-    [16867136587] = {"@Province Locations/"},
-    [16867136588] = {"@Province Locations/"},
-    [16867136589] = {"@Province Locations/"},
-    [16867136590] = {"@Province Locations/"},
+    [16867136583] = {"@Province Locations/Whiterun/The World-Eater's Eyrie/Victory!"}
 }
