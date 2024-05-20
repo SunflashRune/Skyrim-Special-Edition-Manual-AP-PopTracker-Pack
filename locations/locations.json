@@ -693,7 +693,7 @@
                     {
                         "name": "Dragonborn",
                         "access_rules":[
-                            "DragProg:1"
+                            "DragProg:1, MainQuestProg:4"
                         ],
                         "item_count": 1
                     }
@@ -717,7 +717,7 @@
                     {
                         "name": "With Friends like These",
                         "access_rules":[
-                            "BrotherProg:2"
+                            "BrotherProg:2, Sneak, Lockpicking"
                         ],
                         "item_count": 1
                     }
@@ -737,6 +737,9 @@
             },
             {
                 "name": "Dark Brotherhood Sanctuary",
+                "access_rules": [
+                    "Sneak, Lockpicking"
+                ],
                 "sections": [
                     {
                         "name": "Sanctuary",
@@ -831,6 +834,9 @@
             },
             {
                 "name": "Fort Dawnguard",
+                "access_rules": [
+                    "MainQuestProg:4"
+                ],
                 "sections": [
                     {
                         "name": "Dawnguard",
@@ -911,6 +917,9 @@
             },
             {
                 "name": "Castle Volkihar",
+                "access_rules":[
+                    "MainQuestProg:4"
+                ],
                 "sections": [
                     {
                         "name": "The Bloodstone Chalice",
@@ -952,6 +961,9 @@
             },
             {
                 "name": "Ancestor Glade",
+                "access_rules":[
+                    "MainQuestProg:4"
+                ],
                 "sections": [
                     {
                         "name": "Unseen Visions",
@@ -976,6 +988,9 @@
             },
             {
                 "name": "The Forgotten Vale",
+                "access_rules":[
+                    "MainQuestProg:4"
+                ],
                 "sections": [
                     {
                         "name": "Touching the Sky",
@@ -1000,6 +1015,9 @@
             },
             {
                 "name": "Solstheim",
+                "access_rules":[
+                    "MainQuestProg:4"
+                ],
                 "sections": [
                     {
                         "name": "The Temple of Miraak",
