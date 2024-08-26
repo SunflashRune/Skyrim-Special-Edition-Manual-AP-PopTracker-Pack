@@ -214,6 +214,7 @@
             },
             {
                 "name": "Fishery Quests",
+                "visibility_rules":["fishing_on"],
                 "sections": [
                     {
                         "name": "Angler Acquaintances",
@@ -443,6 +444,7 @@
                 "access_rules":[
                     "OneHanded", "TwoHanded"
                 ],
+                "visibility_rules":["companions_on"],
                 "sections": [
                     {
                         "name": "Take Up Arms",
@@ -505,6 +507,7 @@
                 "access_rules":[
                     "Destruction, Restoration, SpellProg:1", "Conjuration, Restoration, SpellProg:1", "Illusion, Restoration, SpellProg:1", "Alteration, Restoration, SpellProg:1"
                 ],
+                "visibility_rules":["college_on"],
                 "sections": [
                     {
                         "name": "First Lessons",
@@ -588,6 +591,7 @@
                 "access_rules":[
                     "Sneak, Pickpocket, Lockpicking"
                 ],
+                "visibility_rules":["guild_on"],
                 "sections": [
                     {
                         "name": "Chance Arrangement",
@@ -688,6 +692,7 @@
                         "access_rules":[
                             "BrotherProg:1, Sneak, Lockpicking"
                         ],
+                        "visibility_rules":["brotherhood_on"],
                         "item_count": 1
                     },
                     {
@@ -695,6 +700,7 @@
                         "access_rules":[
                             "DragProg:1, MainQuestProg:4"
                         ],
+                        "visibility_rules":["dragonborn_on"],
                         "item_count": 1
                     }
                 ],
@@ -713,6 +719,7 @@
             },
             {
                 "name": "Abandoned Shack",
+                "visibility_rules":["brotherhood_on"],
                 "sections": [
                     {
                         "name": "With Friends like These",
@@ -740,6 +747,7 @@
                 "access_rules": [
                     "Sneak, Lockpicking"
                 ],
+                "visibility_rules":["brotherhood_on"],
                 "sections": [
                     {
                         "name": "Sanctuary",
@@ -837,6 +845,7 @@
                 "access_rules": [
                     "MainQuestProg:4"
                 ],
+                "visibility_rules":["dawnguard_on"],
                 "sections": [
                     {
                         "name": "Dawnguard",
@@ -920,6 +929,7 @@
                 "access_rules":[
                     "MainQuestProg:4"
                 ],
+                "visibility_rules":["dawnguard_on"],
                 "sections": [
                     {
                         "name": "The Bloodstone Chalice",
@@ -964,6 +974,7 @@
                 "access_rules":[
                     "MainQuestProg:4"
                 ],
+                "visibility_rules":["dawnguard_on"],
                 "sections": [
                     {
                         "name": "Unseen Visions",
@@ -991,6 +1002,7 @@
                 "access_rules":[
                     "MainQuestProg:4"
                 ],
+                "visibility_rules":["dawnguard_on"],
                 "sections": [
                     {
                         "name": "Touching the Sky",
@@ -1018,6 +1030,7 @@
                 "access_rules":[
                     "MainQuestProg:4"
                 ],
+                "visibility_rules":["dragonborn_on"],
                 "sections": [
                     {
                         "name": "The Temple of Miraak",

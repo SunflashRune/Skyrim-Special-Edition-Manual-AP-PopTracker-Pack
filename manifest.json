@@ -1,7 +1,7 @@
 ﻿{
     "name": "Skyrim Special Edition (AP Manual)",
     "game_name": "Manual_SkyrimVanilla_Sunflash",
-    "package_version": "0.0.0.1",
+    "package_version": "0.3.0.0",
     "package_uid": "AP_Man_Skyrim_Sun",
     "author": "Sunflash Bloodrune",
     "variants": {

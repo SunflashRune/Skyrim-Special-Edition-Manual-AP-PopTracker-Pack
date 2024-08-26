@@ -7,12 +7,45 @@
         "content": [
             {
                 "type": "array",
-                "orientation": "horizontal",
+                "orientation": "vertical",
                 "margin": "0,0",
                 "content": [
                     {
-                        "type": "layout",
-                        "key": "shared_item_grid"
+                        "type": "itemgrid",
+                        "item_margin": "6,1",
+                        "item_size": "50,50",
+                        "rows": [
+                            [
+                                "OneHanded",
+                                "LightArmor",
+                                "Lockpicking"
+                            ],
+                            [
+                                "TwoHanded",
+                                "HeavyArmor",
+                                "Pickpocket"
+                            ],
+                            [
+                                "Archery",
+                                "Block",
+                                "Smithing"
+                            ],
+                            [
+                                "Destruction",
+                                "Restoration",
+                                "Enchanting"
+                            ],
+                            [
+                                "Conjuration",
+                                "Alteration",
+                                "Alchemy"
+                            ],
+                            [
+                                "Speech",
+                                "Sneak",
+                                "Illusion"
+                            ]
+                        ]
                     }
                 ]
             }

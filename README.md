@@ -9,7 +9,7 @@
 
  # Quick FAQ
 
-This version of the Pack is set for version 0.6 of the Skyrim Special Edition Manual Randomizer, found at https://github.com/SunflashRune/Skyrim-Special-Edition-Randomizer-for-Manual-Archipelago/releases
+This version of the Pack is set for version 0.7 of the Skyrim Special Edition Manual Randomizer, found at https://github.com/SunflashRune/Skyrim-Special-Edition-Randomizer-for-Manual-Archipelago/releases
 
 The Discord for this community is at https://discord.gg/T5bcsVHByx
 

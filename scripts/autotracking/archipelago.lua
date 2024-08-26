@@ -12,6 +12,56 @@ LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
 
 function onClear(slot_data)
+    -- Attempt to pull YAML settings from Slot Data
+    if slot_data['CompanionsEnable'] then
+        local obj = Tracker:FindObjectForCode("companions")
+        if obj then
+            obj.Active = slot_data['CompanionsEnable']
+        end
+    end
+
+    if slot_data['CollegeEnable'] then
+        local obj = Tracker:FindObjectForCode("college")
+        if obj then
+            obj.Active = slot_data['CollegeEnable']
+        end
+    end
+
+    if slot_data['GuildEnable'] then
+        local obj = Tracker:FindObjectForCode("guild")
+        if obj then
+            obj.Active = slot_data['GuildEnable']
+        end
+    end
+
+    if slot_data['BrotherhoodEnable'] then
+        local obj = Tracker:FindObjectForCode("brotherhood")
+        if obj then
+            obj.Active = slot_data['BrotherhoodEnable']
+        end
+    end
+
+    if slot_data['DawnguardEnable'] then
+        local obj = Tracker:FindObjectForCode("dawnguard")
+        if obj then
+            obj.Active = slot_data['DawnguardEnable']
+        end
+    end
+
+    if slot_data['DragonbornEnable'] then
+        local obj = Tracker:FindObjectForCode("dragonborn")
+        if obj then
+            obj.Active = slot_data['DragonbornEnable']
+        end
+    end
+
+    if slot_data['FishingEnable'] then
+        local obj = Tracker:FindObjectForCode("fishing")
+        if obj then
+            obj.Active = slot_data['FishingEnable']
+        end
+    end
+
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("called onClear, slot_data:\n%s", dump_table(slot_data)))
     end

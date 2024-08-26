@@ -34,28 +34,28 @@
                                 "DragProg"
                             ],
                             [
-                                "Archery",
-                                "Conjuration",
-                                "Destruction",
                                 "OneHanded",
-                                "Speech",
-								"TwoHanded"
+                                "TwoHanded",
+                                "Archery",
+                                "Destruction",
+                                "Conjuration",
+								"Speech"
                             ],
                             [
-                                "Alteration",
-                                "Block",
-                                "HeavyArmor",
                                 "LightArmor",
+                                "HeavyArmor",
+                                "Block",
                                 "Restoration",
+                                "Alteration",
 								"Sneak"
                             ],
                             [
-                                "Alchemy",
-                                "Enchanting",
-                                "Illusion",
                                 "Lockpicking",
-								"Pickpocket",
-								"Smithing"
+                                "Pickpocket",
+                                "Smithing",
+                                "Enchanting",
+                                "Alchemy",
+                                "Illusion"
                             ]
                         ]
                     }
@@ -82,18 +82,56 @@
                             [
                                 "BanditBounties",
                                 "ForswornBounties",
-                                "DragonBounties"
+                                "DragonBounties",
+                                "",
+                                "WordWalls",
+                                "StandingStones"
                             ],
                             [
                                 "DragonsSlain",
 								"PreySlain",
 								"",
-                                "WordWalls",
-                                "StandingStones"
+                                "",
+                                "TownHomes",
+                                "Thaneships"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Faction_Sidequest_Enabled": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "6,1",
+						"item_size": "50,50",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "companions",
+                                "college",
+                                "guild",
+                                "brotherhood",
+                                "dawnguard",
+                                "dragonborn"
                             ],
                             [
-                                "Townhomes",
-                                "Thaneships"
+                                "fishing",
+								"",
+								"",
+                                "",
+                                "",
+                                ""
                             ]
                         ]
                     }

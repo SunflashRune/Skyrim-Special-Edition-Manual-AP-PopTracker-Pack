@@ -1,0 +1,68 @@
+[
+	{
+		"name": "Companions Enabled",
+		"type": "toggle",
+        "img": "images/items/CompanionEnable.png",
+        "codes": "companions,companions_on",
+        "initial_active_state": false
+	},
+    {
+		"name": "College of Winterhold Enabled",
+		"type": "toggle",
+		"img": "images/items/CollegeEnable.png",
+		"codes": "college,college_on",
+        "initial_active_state": false
+	},
+    {
+		"name": "Thieves' Guild Enabled",
+		"type": "toggle",
+		"img": "images/items/GuildEnable.png",
+		"codes": "guild,guild_on",
+        "initial_active_state": false
+	},
+    {
+		"name": "Dark Brotherhood Enabled",
+		"type": "toggle",
+		"img": "images/items/BrotherhoodEnable.png",
+		"codes": "brotherhood,brotherhood_on",
+        "initial_active_state": false
+	},
+    {
+		"name": "Dawnguard Enabled",
+		"type": "toggle",
+		"img": "images/items/DawnguardEnable.png",
+		"codes": "dawnguard,dawnguard_on",
+        "initial_active_state": false
+	},
+    {
+		"name": "Dragonborn Enabled",
+		"type": "toggle",
+		"img": "images/items/DragonbornEnable.png",
+		"codes": "dragonborn,dragonborn_on",
+        "initial_active_state": false
+	},
+    {
+		"name": "Fishing Quests Enabled",
+		"type": "toggle",
+		"img": "images/items/FishingEnable.png",
+		"codes": "fishing,fishing_on",
+        "initial_active_state": false
+	}
+//    {
+//        "name": "Enable Tuner Logic",
+//        "type": "progressive",
+//        "loop": true,
+//        "allow_disabled": false,
+//        "stages": [
+//            {
+//                "img": "images/items/item7_off.png",
+//                "codes": "tunerlogic,tunerlogic_off"
+//            },
+//            {
+//                "img": "images/items/item7.png",
+//                "codes": "tunerlogic,tunerlogic_on",
+//                "inherit_codes": false
+//            }
+//        ]
+//    },
+]
