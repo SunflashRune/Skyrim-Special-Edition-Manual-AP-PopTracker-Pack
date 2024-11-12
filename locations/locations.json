@@ -27,59 +27,61 @@
                 ]
             },
             {
-                "name": "Misc Objectives",
+                "name": "Persistent Objectives",
                 "sections": [
+                    {
+                        "name": "In a Pinch",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hunting Novice",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bandit Bounties = 3",
+                        "item_count": 1
+                    },
                     {
                         "name": "Standing Stones Found = 4",
                         "item_count": 1
                     },
                     {
-                        "name": "Standing Stones Found = 8",
-                        "access_rules":[
-                            "MainQuestProg:3"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Standing Stones Found = 13",
-                        "access_rules":[
-                            "MainQuestProg:8, WeaponProg:2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Word Walls Read = 1",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Word Walls Read = 3",
-                        "access_rules":[
-                            "MainQuestProg:3, WeaponProg:1"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Word Walls Read = 5",
-                        "access_rules":[
-                            "MainQuestProg:8, WeaponProg:2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Thaneships = 3",
+                        "name": "Townhomes Owned = 1",
                         "access_rules":[
                             "MainQuestProg:4, WeaponProg:1"
                         ],
                         "item_count": 1
-                    },
+                    }
+                ],
+                "map_locations": [
                     {
-                        "name": "Slay 6 Wolves, 2 Sabre Cats, 1 Bear",
+                        "map": "Province",
+                        "x": 350,
+                        "y": 1150
+                    }
+                ]
+            },
+            {
+                "name": "Misc Objectives",
+                "sections": [
+                    {
+                        "name": "Den Clearer",
+                        "access_rules":[
+                            "MainQuestProg:1"
+                        ],
                         "item_count": 1
                     },
                     {
-                        "name": "Slay 3 Hunters Prey",
+                        "name": "Punch-Out",
                         "access_rules":[
-                            "MainQuestProg:12, WeaponProg:2"
+                            "MainQuestProg:2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mandatory Maintenance",
+                        "access_rules":[
+                            "MainQuestProg:3, WeaponProg:1"
                         ],
                         "item_count": 1
                     },
@@ -91,9 +93,30 @@
                         "item_count": 1
                     },
                     {
+                        "name": "Barovian Housekeeping",
+                        "access_rules":[
+                            "MainQuestProg:5, WeaponProg:1"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Skilled",
+                        "access_rules":[
+                            "MainQuestProg:6, WeaponProg:1"
+                        ],
+                        "item_count": 1
+                    },
+                    {
                         "name": "Dragons Slain = 6",
                         "access_rules":[
                             "MainQuestProg:6, WeaponProg:1"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Crafter (5 Unique Items)",
+                        "access_rules":[
+                            "MainQuestProg:7, WeaponProg:2"
                         ],
                         "item_count": 1
                     },
@@ -108,124 +131,21 @@
                 "map_locations": [
                     {
                         "map": "Province",
-                        "x": 350,
-                        "y": 1150
-                    }
-                ]
-            },
-            {
-                "name": "Bounty Objectives",
-                "sections": [
-                    {
-                        "name": "Bandit Bounties Complete = 3",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Bandit Bounties Complete = 6",
-                        "access_rules":[
-                            "MainQuestProg:2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Forsworn Bounties Complete = 3",
-                        "access_rules":[
-                            "MainQuestProg:1"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Forsworn Bounties Complete = 6",
-                        "access_rules":[
-                            "MainQuestProg:4, WeaponProg:1"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Dragon Bounties Complete = 3",
-                        "access_rules":[
-                            "MainQuestProg:5, WeaponProg:1"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Dragon Bounties Complete = 6",
-                        "access_rules":[
-                            "MainQuestProg:7, WeaponProg:2"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Province",
                         "x": 450,
                         "y": 1150
                     }
                 ]
             },
             {
-                "name": "Home Ownerships",
-                "sections": [
-                    {
-                        "name": "Townhomes Owned = 1",
-                        "access_rules":[
-                            "MainQuestProg:4, WeaponProg:1"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Townhomes Owned = 3",
-                        "access_rules":[
-                            "MainQuestProg:7, WeaponProg:2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Townhomes Owned = 5",
-                        "access_rules":[
-                            "MainQuestProg:11, WeaponProg:2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Land Owned",
-                        "access_rules":[
-                            "MainQuestProg:5, WeaponProg:1"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Build 3 Wings on 1 Land",
-                        "access_rules":[
-                            "MainQuestProg:10, WeaponProg:2, Smithing"
-                        ],
-                        "item_count": 1
-
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Province",
-                        "x": 550,
-                        "y": 1150
-                    }
-                ]
-            },
-            {
                 "name": "Fishery Quests",
-                "visibility_rules":["fishing_on"],
                 "sections": [
-                    {
-                        "name": "Angler Acquaintances",
-                        "item_count": 1
-                    },
+                    //{
+                    //    "name": "In a Pinch",
+                    //    "item_count": 1
+                    //},
                     {
                         "name": "Catch of the Day",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "In a Pinch",
+                        "visibility_rules":["fishing_on"],
                         "access_rules":[
                             "MainQuestProg:1"
                         ],
@@ -233,6 +153,7 @@
                     },
                     {
                         "name": "Caught in the Rain",
+                        "visibility_rules":["fishing_on"],
                         "access_rules":[
                             "MainQuestProg:2"
                         ],
@@ -240,20 +161,23 @@
                     },
                     {
                         "name": "Crustacean Extermination",
+                        "visibility_rules":["fishing_on"],
                         "access_rules":[
-                            "MainQuestProg:4"
+                            "MainQuestProg:4, WeaponProg:1"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Frozen Fish",
+                        "visibility_rules":["fishing_on"],
                         "access_rules":[
                             "MainQuestProg:5, WeaponProg:1"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Darkest Depths",
+                        "name": "Tusked Terror",
+                        "visibility_rules":["fishing_on"],
                         "access_rules":[
                             "MainQuestProg:9, WeaponProg:2"
                         ],
@@ -270,6 +194,228 @@
                         "map": "The Rift",
                         "x": 316,
                         "y": 170
+                    }
+                ]
+            },
+            {
+                "name": "Hunting",
+                "visibility_rules":["hunting_on"],
+                "sections": [
+                    ///{
+                    ///    "name": "Hunting Novice",
+                    ///    "item_count": 1
+                    ///},
+                    {
+                        "name": "Hunting Skilled",
+                        "access_rules":[
+                            "MainQuestProg:5, WeaponProg:1"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hunting Expert",
+                        "access_rules":[
+                            "MainQuestProg:8, WeaponProg:2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hunting Legendary",
+                        "access_rules":[
+                            "MainQuestProg:12, WeaponProg:2"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Province",
+                        "x": 550,
+                        "y": 1150
+                    }
+                ]
+            },
+            {
+                "name": "Bounties",
+                "visibility_rules":["bounties_on"],
+                "sections": [
+                    ///{
+                    ///    "name": "Bandit Bounties = 3",
+                    ///    "item_count": 1
+                    ///},
+                    {
+                        "name": "Forsworn Bounties = 3",
+                        "access_rules":[
+                            "MainQuestProg:1"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bandit Bounties = 6",
+                        "access_rules":[
+                            "MainQuestProg:2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Forsworn Bounties = 6",
+                        "access_rules":[
+                            "MainQuestProg:4, WeaponProg:1"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Dragon Bounties = 3",
+                        "access_rules":[
+                            "MainQuestProg:5, WeaponProg:1"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Dragon Bounties = 6",
+                        "access_rules":[
+                            "MainQuestProg:7, WeaponProg:2"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Province",
+                        "x": 350,
+                        "y": 1250
+                    }
+                ]
+            },
+            {
+                "name": "Exploration",
+                "visibility_rules":["exploration_on"],
+                "sections": [
+                    ///{
+                    ///    "name": "Standing Stones Found = 4",
+                    ///    "item_count": 1
+                    ///},
+                    {
+                        "name": "Word Wall Read = 1",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Standing Stones Found = 8",
+                        "access_rules":[
+                            "MainQuestProg:2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Word Walls Read = 3",
+                        "access_rules":[
+                            "MainQuestProg:3, WeaponProg:1"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Word Walls Read = 6",
+                        "access_rules":[
+                            "MainQuestProg:8, WeaponProg:2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Standing Stones Found = 13",
+                        "access_rules":[
+                            "MainQuestProg:8, WeaponProg:2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Miner Sixty-Niner",
+                        "access_rules":[
+                            "MainQuestProg:10, WeaponProg:2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Eminent Domain",
+                        "access_rules":[
+                            "MainQuestProg:11, WeaponProg:2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Archaeologist",
+                        "access_rules":[
+                            "MainQuestProg:13, WeaponProg:2"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Province",
+                        "x": 450,
+                        "y": 1250
+                    }
+                ]
+            },
+            {
+                "name": "Housing",
+                "visibility_rules":["housing_on"],
+                "sections": [
+                    ///{
+                    ///    "name": "Townhomes Owned = 1",
+                    ///    "access_rules":[
+                    ///        "MainQuestProg:4, WeaponProg:1"
+                    ///    ],
+                    ///    "item_count": 1
+                    ///},
+                    {
+                        "name": "Land Owned = 1",
+                        "access_rules":[
+                            "MainQuestProg:5, WeaponProg:1"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Townhomes Owned = 3",
+                        "access_rules":[
+                            "MainQuestProg:7, WeaponProg:2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Land Owned = 3",
+                        "access_rules":[
+                            "MainQuestProg:8, WeaponProg:2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Main Hall",
+                        "access_rules":[
+                            "MainQuestProg:9, WeaponProg:2, Smithing"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Town Homes = 5",
+                        "access_rules":[
+                            "MainQuestProg:11, WeaponProg:2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Full Manor on 1 Land",
+                        "access_rules":[
+                            "MainQuestProg:12, WeaponProg:2, Smithing"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Province",
+                        "x": 550,
+                        "y": 1250
                     }
                 ]
             },

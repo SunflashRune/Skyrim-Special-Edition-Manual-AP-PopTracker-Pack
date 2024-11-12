@@ -47,6 +47,34 @@
 		"img": "images/items/FishingEnable.png",
 		"codes": "fishing,fishing_on",
         "initial_active_state": false
+	},
+	{
+		"name": "Hunting Objectives Enabled",
+		"type": "toggle",
+		"img": "images/items/FishingEnable.png",
+		"codes": "hunting,hunting_on",
+		"initial_active_state": false
+	},
+	{
+		"name": "Bounty Objectives Enabled",
+		"type": "toggle",
+		"img": "images/items/FishingEnable.png",
+		"codes": "bounties,bounties_on",
+		"initial_active_state": false
+	},
+	{
+		"name": "Exploration Objectives Enabled",
+		"type": "toggle",
+		"img": "images/items/FishingEnable.png",
+		"codes": "exploration,exploration_on",
+		"initial_active_state": false
+	},
+	{
+		"name": "Housing Objectives Enabled",
+		"type": "toggle",
+		"img": "images/items/FishingEnable.png",
+		"codes": "housing,housing_on",
+		"initial_active_state": false
 	}
 //    {
 //        "name": "Enable Tuner Logic",

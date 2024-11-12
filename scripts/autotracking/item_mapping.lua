@@ -32,5 +32,6 @@ ITEM_MAPPING = {
     [17067246027] = {"WeaponProg","consumable"},
     [17067246028] = {"LightArmProg","consumable"},
     [17067246029] = {"HeavyArmProg","consumable"},
-    [17067246030] = {"SpellProg","consumable"}
+    [17067246030] = {"SpellProg","consumable"},
+    [17067246031] = {"ThalmorEars","consumable"}
 }

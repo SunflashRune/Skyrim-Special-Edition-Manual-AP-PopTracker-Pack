@@ -62,6 +62,34 @@ function onClear(slot_data)
         end
     end
 
+    if slot_data['HuntingEnable'] then
+        local obj = Tracker:FindObjectForCode("hunting")
+        if obj then
+            obj.Active = slot_data['HuntingEnable']
+        end
+    end
+
+    if slot_data['BountyEnable'] then
+        local obj = Tracker:FindObjectForCode("bounties")
+        if obj then
+            obj.Active = slot_data['BountyEnable']
+        end
+    end
+
+    if slot_data['ExplorationEnable'] then
+        local obj = Tracker:FindObjectForCode("exploration")
+        if obj then
+            obj.Active = slot_data['ExplorationEnable']
+        end
+    end
+
+    if slot_data['HousingEnable'] then
+        local obj = Tracker:FindObjectForCode("housing")
+        if obj then
+            obj.Active = slot_data['HousingEnable']
+        end
+    end
+
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("called onClear, slot_data:\n%s", dump_table(slot_data)))
     end
