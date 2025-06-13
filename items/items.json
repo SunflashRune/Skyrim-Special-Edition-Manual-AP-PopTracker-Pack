@@ -93,7 +93,7 @@
     {
         "name": "Faction Complete",
         "type": "consumable",
-        "img": "images/items/FactionComplete.png",
+        "img": "images/items/progressives/FactionComplete.png",
         "max_quantity": 3,
         "increment": 1,
         "decrement": 1,
@@ -105,7 +105,7 @@
     {
         "name": "Progressive Weapon Tier",
         "type": "consumable",
-        "img": "images/items/WeaponTier.png",
+        "img": "images/items/progressives/WeaponTier.png",
         "max_quantity": 7,
         "increment": 1,
         "decrement": 1,
@@ -117,7 +117,7 @@
     {
         "name": "Progressive Light Armor Tier",
         "type": "consumable",
-        "img": "images/items/LightArmorTier.png",
+        "img": "images/items/progressives/LightArmorTier.png",
         "max_quantity": 5,
         "increment": 1,
         "decrement": 1,
@@ -129,7 +129,7 @@
     {
         "name": "Progressive Heavy Armor Tier",
         "type": "consumable",
-        "img": "images/items/HeavyArmorTier.png",
+        "img": "images/items/progressives/HeavyArmorTier.png",
         "max_quantity": 7,
         "increment": 1,
         "decrement": 1,
@@ -141,7 +141,7 @@
     {
         "name": "Progressive Spell Tier",
         "type": "consumable",
-        "img": "images/items/SpellTier.png",
+        "img": "images/items/progressives/SpellTier.png",
         "max_quantity": 4,
         "increment": 1,
         "decrement": 1,
@@ -262,7 +262,7 @@
     {
         "name": "Bandit Bounties",
         "type": "consumable",
-        "img": "images/items/locations/BanditBounties.png",
+        "img": "images/locations/SR-Locations-BanditBounties-64x64-Final-Red.png",
         "max_quantity": 6,
         "increment": 1,
         "decrement": 1,
@@ -358,7 +358,7 @@
     {
         "name": "Thaneships",
         "type": "consumable",
-        "img": "images/items/locations/Thaneships.png",
+        "img": "images/locations/SR-Locations-Thaneships-64x64-Final-Red.png",
         "max_quantity": 3,
         "increment": 1,
         "decrement": 1,

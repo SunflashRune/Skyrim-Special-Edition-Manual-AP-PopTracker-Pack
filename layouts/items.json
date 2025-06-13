@@ -126,12 +126,12 @@
                                 "dragonborn"
                             ],
                             [
+                                "goal",
                                 "fishing",
 								"hunting",
 								"bounties",
                                 "exploration",
-                                "housing",
-                                ""
+                                "housing"
                             ]
                         ]
                     }

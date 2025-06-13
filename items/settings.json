@@ -1,80 +1,135 @@
 [
+	//Each of these start in Deactived state, and are toggled on by slot_data in scripts/autotracking/archipelago.lua (or hitting the button)
 	{
 		"name": "Companions Enabled",
 		"type": "toggle",
-        "img": "images/items/CompanionEnable.png",
+        "img": "images/settings/CompanionEnable.png",
         "codes": "companions,companions_on",
         "initial_active_state": false
 	},
     {
 		"name": "College of Winterhold Enabled",
 		"type": "toggle",
-		"img": "images/items/CollegeEnable.png",
+		"img": "images/settings/CollegeEnable.png",
 		"codes": "college,college_on",
         "initial_active_state": false
 	},
     {
 		"name": "Thieves' Guild Enabled",
 		"type": "toggle",
-		"img": "images/items/GuildEnable.png",
+		"img": "images/settings/GuildEnable.png",
 		"codes": "guild,guild_on",
         "initial_active_state": false
 	},
     {
 		"name": "Dark Brotherhood Enabled",
 		"type": "toggle",
-		"img": "images/items/BrotherhoodEnable.png",
+		"img": "images/settings/BrotherhoodEnable.png",
 		"codes": "brotherhood,brotherhood_on",
         "initial_active_state": false
 	},
     {
 		"name": "Dawnguard Enabled",
 		"type": "toggle",
-		"img": "images/items/DawnguardEnable.png",
+		"img": "images/settings/DawnguardEnable.png",
 		"codes": "dawnguard,dawnguard_on",
         "initial_active_state": false
 	},
     {
 		"name": "Dragonborn Enabled",
 		"type": "toggle",
-		"img": "images/items/DragonbornEnable.png",
+		"img": "images/settings/DragonbornEnable.png",
 		"codes": "dragonborn,dragonborn_on",
         "initial_active_state": false
 	},
     {
 		"name": "Fishing Quests Enabled",
 		"type": "toggle",
-		"img": "images/items/FishingEnable.png",
+		"img": "images/settings/FishingEnable.png",
 		"codes": "fishing,fishing_on",
         "initial_active_state": false
 	},
 	{
 		"name": "Hunting Objectives Enabled",
 		"type": "toggle",
-		"img": "images/items/FishingEnable.png",
+		"img": "images/settings/HuntingEnable.png",
 		"codes": "hunting,hunting_on",
 		"initial_active_state": false
 	},
 	{
 		"name": "Bounty Objectives Enabled",
 		"type": "toggle",
-		"img": "images/items/FishingEnable.png",
+		"img": "images/settings/BountiesEnable.png",
 		"codes": "bounties,bounties_on",
 		"initial_active_state": false
 	},
 	{
 		"name": "Exploration Objectives Enabled",
 		"type": "toggle",
-		"img": "images/items/FishingEnable.png",
+		"img": "images/settings/ExplorationEnable.png",
 		"codes": "exploration,exploration_on",
 		"initial_active_state": false
 	},
 	{
 		"name": "Housing Objectives Enabled",
 		"type": "toggle",
-		"img": "images/items/FishingEnable.png",
+		"img": "images/settings/HousingEnable.png",
 		"codes": "housing,housing_on",
 		"initial_active_state": false
+	},
+	//This displays your selected Goal, and hides certain Locations if a restricted goal (currently only DragonAck) is selected. Button click or slot_data in scripts/autotracking/archipelago.lua
+	{
+		"name": "Selected Goal",
+		"type": "progressive",
+		"allow_disabled": false,
+		"loop": true,
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img": "images/settings/GoalAlduinFaction.png",
+				"codes": "goal, alduinfaction",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/settings/GoalAlduinOnly.png",
+				"codes": "goal, alduinonly",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/settings/GoalDragonAck.png",
+				"codes": "goal, dragonack",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/settings/GoalFactionOnly.png",
+				"codes": "goal, factiononly",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/settings/GoalAllFactions.png",
+				"codes": "goal, allfactions",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Dragonborn Acknowledged Goal",
+		"type": "progressive",
+		"allow_disabled": false,
+		"loop": true,
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img": "images/settings/GoalAlduinFaction.png",
+				"codes": "dragonack_status, dragonack_off",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/settings/GoalDragonAck.png",
+				"codes": "dragonack_status, dragonack_on",
+				"inherit_codes": false
+			}
+		]
 	}
 //    {
 //        "name": "Enable Tuner Logic",

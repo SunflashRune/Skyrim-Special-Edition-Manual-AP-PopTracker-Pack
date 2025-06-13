@@ -118,12 +118,18 @@
                         "access_rules":[
                             "MainQuestProg:7, WeaponProg:2"
                         ],
+                        "visibility_rules":[
+                            "dragonack_off"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Dragons Slain = 10",
                         "access_rules":[
                             "MainQuestProg:9, WeaponProg:2"
+                        ],
+                        "visibility_rules":[
+                            "dragonack_off"
                         ],
                         "item_count": 1
                     }
@@ -177,7 +183,7 @@
                     },
                     {
                         "name": "Tusked Terror",
-                        "visibility_rules":["fishing_on"],
+                        "visibility_rules":["fishing_on, dragonack_off"],
                         "access_rules":[
                             "MainQuestProg:9, WeaponProg:2"
                         ],
@@ -217,12 +223,18 @@
                         "access_rules":[
                             "MainQuestProg:8, WeaponProg:2"
                         ],
+                        "visibility_rules":[
+                            "dragonack_off"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Hunting Legendary",
                         "access_rules":[
                             "MainQuestProg:12, WeaponProg:2"
+                        ],
+                        "visibility_rules":[
+                            "dragonack_off"
                         ],
                         "item_count": 1
                     }
@@ -276,6 +288,9 @@
                         "access_rules":[
                             "MainQuestProg:7, WeaponProg:2"
                         ],
+                        "visibility_rules":[
+                            "dragonack_off"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -318,12 +333,18 @@
                         "access_rules":[
                             "MainQuestProg:8, WeaponProg:2"
                         ],
+                        "visibility_rules":[
+                            "dragonack_off"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Standing Stones Found = 13",
                         "access_rules":[
                             "MainQuestProg:8, WeaponProg:2"
+                        ],
+                        "visibility_rules":[
+                            "dragonack_off"
                         ],
                         "item_count": 1
                     },
@@ -332,6 +353,9 @@
                         "access_rules":[
                             "MainQuestProg:10, WeaponProg:2"
                         ],
+                        "visibility_rules":[
+                            "dragonack_off"
+                        ],
                         "item_count": 1
                     },
                     {
@@ -339,12 +363,18 @@
                         "access_rules":[
                             "MainQuestProg:11, WeaponProg:2"
                         ],
+                        "visibility_rules":[
+                            "dragonack_off"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Archaeologist",
                         "access_rules":[
                             "MainQuestProg:13, WeaponProg:2"
+                        ],
+                        "visibility_rules":[
+                            "dragonack_off"
                         ],
                         "item_count": 1
                     }
@@ -380,12 +410,18 @@
                         "access_rules":[
                             "MainQuestProg:7, WeaponProg:2"
                         ],
+                        "visibility_rules":[
+                            "dragonack_off"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Land Owned = 3",
                         "access_rules":[
                             "MainQuestProg:8, WeaponProg:2"
+                        ],
+                        "visibility_rules":[
+                            "dragonack_off"
                         ],
                         "item_count": 1
                     },
@@ -394,6 +430,9 @@
                         "access_rules":[
                             "MainQuestProg:9, WeaponProg:2, Smithing"
                         ],
+                        "visibility_rules":[
+                            "dragonack_off"
+                        ],
                         "item_count": 1
                     },
                     {
@@ -401,12 +440,18 @@
                         "access_rules":[
                             "MainQuestProg:11, WeaponProg:2"
                         ],
+                        "visibility_rules":[
+                            "dragonack_off"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Full Manor on 1 Land",
                         "access_rules":[
                             "MainQuestProg:12, WeaponProg:2, Smithing"
+                        ],
+                        "visibility_rules":[
+                            "dragonack_off"
                         ],
                         "item_count": 1
                     }
@@ -441,6 +486,9 @@
                         "access_rules":[
                             "MainQuestProg:8, WeaponProg:2"
                         ],
+                        "visibility_rules":[
+                            "dragonack_off"
+                        ],
                         "item_count": 1
                     },
                     {
@@ -448,12 +496,18 @@
                         "access_rules":[
                             "MainQuestProg:9, WeaponProg:2"
                         ],
+                        "visibility_rules":[
+                            "dragonack_off"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Alduin's Wall",
                         "access_rules":[
                             "MainQuestProg:10, WeaponProg:2"
+                        ],
+                        "visibility_rules":[
+                            "dragonack_off"
                         ],
                         "item_count": 1
                     }
@@ -496,12 +550,18 @@
                         "access_rules":[
                             "MainQuestProg:15, WeaponProg:2, FactionComplete:1"
                         ],
+                        "visibility_rules":[
+                            "dragonack_off"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Whispering Door",
                         "access_rules":[
                             "MainQuestProg:12, WeaponProg:2"
+                        ],
+                        "visibility_rules":[
+                            "dragonack_off"
                         ],
                         "item_count": 1
                     }
@@ -548,12 +608,18 @@
                         "access_rules":[
                             "MainQuestProg:11, WeaponProg:2"
                         ],
+                        "visibility_rules":[
+                            "dragonack_off"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Elder Knowledge",
                         "access_rules":[
                             "MainQuestProg:12, WeaponProg:2"
+                        ],
+                        "visibility_rules":[
+                            "dragonack_off"
                         ],
                         "item_count": 1
                     },
@@ -562,12 +628,18 @@
                         "access_rules":[
                             "MainQuestProg:13, WeaponProg:2"
                         ],
+                        "visibility_rules":[
+                            "dragonack_off"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Fallen",
                         "access_rules":[
                             "MainQuestProg:14, WeaponProg:2"
+                        ],
+                        "visibility_rules":[
+                            "dragonack_off"
                         ],
                         "item_count": 1
                     }
@@ -618,6 +690,9 @@
                         "access_rules":[
                             "CompanionProg:4"
                         ],
+                        "visibility_rules":[
+                            "dragonack_off"
+                        ],
                         "item_count": 1
                     },
                     {
@@ -625,12 +700,18 @@
                         "access_rules":[
                             "CompanionProg:5"
                         ],
+                        "visibility_rules":[
+                            "dragonack_off"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Glory of the Dead",
                         "access_rules":[
                             "CompanionProg:6"
+                        ],
+                        "visibility_rules":[
+                            "dragonack_off"
                         ],
                         "item_count": 1
                     }
@@ -688,12 +769,18 @@
                         "access_rules":[
                             "CollegeProg:5, Destruction"
                         ],
+                        "visibility_rules":[
+                            "dragonack_off"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Containment",
                         "access_rules":[
                             "CollegeProg:6"
+                        ],
+                        "visibility_rules":[
+                            "dragonack_off"
                         ],
                         "item_count": 1
                     },
@@ -702,6 +789,9 @@
                         "access_rules":[
                             "CollegeProg:7"
                         ],
+                        "visibility_rules":[
+                            "dragonack_off"
+                        ],
                         "item_count": 1
                     },
                     {
@@ -709,12 +799,18 @@
                         "access_rules":[
                             "CollegeProg:8"
                         ],
+                        "visibility_rules":[
+                            "dragonack_off"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Discerning the Transmundane",
                         "access_rules":[
                             "MainQuestProg:12, WeaponProg:2"
+                        ],
+                        "visibility_rules":[
+                            "dragonack_off"
                         ],
                         "item_count": 1
                     }
@@ -779,12 +875,18 @@
                         "access_rules":[
                             "GuildProg:6"
                         ],
+                        "visibility_rules":[
+                            "dragonack_off"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Hard Answers",
                         "access_rules":[
                             "GuildProg:7"
+                        ],
+                        "visibility_rules":[
+                            "dragonack_off"
                         ],
                         "item_count": 1
                     },
@@ -793,12 +895,18 @@
                         "access_rules":[
                             "GuildProg:8"
                         ],
+                        "visibility_rules":[
+                            "dragonack_off"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Trinity Restored",
                         "access_rules":[
                             "GuildProg:9"
+                        ],
+                        "visibility_rules":[
+                            "dragonack_off"
                         ],
                         "item_count": 1
                     },
@@ -807,12 +915,18 @@
                         "access_rules":[
                             "GuildProg:10"
                         ],
+                        "visibility_rules":[
+                            "dragonack_off"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Darkness Returns",
                         "access_rules":[
                             "GuildProg:11"
+                        ],
+                        "visibility_rules":[
+                            "dragonack_off"
                         ],
                         "item_count": 1
                     }
@@ -921,12 +1035,18 @@
                         "access_rules":[
                             "BrotherProg:6"
                         ],
+                        "visibility_rules":[
+                            "dragonack_off"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Bound Until Death",
                         "access_rules":[
                             "BrotherProg:7"
+                        ],
+                        "visibility_rules":[
+                            "dragonack_off"
                         ],
                         "item_count": 1
                     },
@@ -935,12 +1055,18 @@
                         "access_rules":[
                             "BrotherProg:8"
                         ],
+                        "visibility_rules":[
+                            "dragonack_off"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Cure for Madness",
                         "access_rules":[
                             "BrotherProg:9"
+                        ],
+                        "visibility_rules":[
+                            "dragonack_off"
                         ],
                         "item_count": 1
                     },
@@ -949,12 +1075,18 @@
                         "access_rules":[
                             "BrotherProg:10"
                         ],
+                        "visibility_rules":[
+                            "dragonack_off"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "To Kill an Empire",
                         "access_rules":[
                             "BrotherProg:11"
+                        ],
+                        "visibility_rules":[
+                            "dragonack_off"
                         ],
                         "item_count": 1
                     },
@@ -963,12 +1095,18 @@
                         "access_rules":[
                             "BrotherProg:12"
                         ],
+                        "visibility_rules":[
+                            "dragonack_off"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Hail Sithis!",
                         "access_rules":[
                             "BrotherProg:13"
+                        ],
+                        "visibility_rules":[
+                            "dragonack_off"
                         ],
                         "item_count": 1
                     }
@@ -1026,12 +1164,18 @@
                         "access_rules":[
                             "DawnProg:5"
                         ],
+                        "visibility_rules":[
+                            "dragonack_off"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Scroll Scouting",
                         "access_rules":[
                             "DawnProg:6"
+                        ],
+                        "visibility_rules":[
+                            "dragonack_off"
                         ],
                         "item_count": 1
                     },
@@ -1040,6 +1184,9 @@
                         "access_rules":[
                             "DawnProg:7"
                         ],
+                        "visibility_rules":[
+                            "dragonack_off"
+                        ],
                         "item_count": 1
                     },
                     {
@@ -1047,12 +1194,18 @@
                         "access_rules":[
                             "DawnProg:8"
                         ],
+                        "visibility_rules":[
+                            "dragonack_off"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Kindred Judgment",
                         "access_rules":[
                             "DawnProg:11"
+                        ],
+                        "visibility_rules":[
+                            "dragonack_off"
                         ],
                         "item_count": 1
                     }
@@ -1127,6 +1280,9 @@
                         "access_rules":[
                             "DawnProg:9"
                         ],
+                        "visibility_rules":[
+                            "dragonack_off"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -1154,6 +1310,9 @@
                         "name": "Touching the Sky",
                         "access_rules":[
                             "DawnProg:10"
+                        ],
+                        "visibility_rules":[
+                            "dragonack_off"
                         ],
                         "item_count": 1
                     }
@@ -1197,12 +1356,18 @@
                         "access_rules":[
                             "DragProg:4"
                         ],
+                        "visibility_rules":[
+                            "dragonack_off"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Path of Knowledge",
                         "access_rules":[
                             "DragProg:5"
+                        ],
+                        "visibility_rules":[
+                            "dragonack_off"
                         ],
                         "item_count": 1
                     },
@@ -1211,12 +1376,18 @@
                         "access_rules":[
                             "DragProg:6"
                         ],
+                        "visibility_rules":[
+                            "dragonack_off"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "At the Summit of Apocrypha",
                         "access_rules":[
                             "DragProg:7"
+                        ],
+                        "visibility_rules":[
+                            "dragonack_off"
                         ],
                         "item_count": 1
                     }
@@ -1442,6 +1613,9 @@
                         "access_rules":[
                             "MainQuestProg:12, WeaponProg:2"
                         ],
+                        "visibility_rules":[
+                            "dragonack_off"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -1561,6 +1735,9 @@
                         "name": "Boethiah's Calling",
                         "access_rules":[
                             "MainQuestProg:12, WeaponProg:2"
+                        ],
+                        "visibility_rules":[
+                            "dragonack_off"
                         ],
                         "item_count": 1
                     }

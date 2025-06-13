@@ -90,6 +90,29 @@ function onClear(slot_data)
         end
     end
 
+    if slot_data['BountyEnable'] then
+        local obj = Tracker:FindObjectForCode("bounties")
+        if obj then
+            obj.Active = slot_data['BountyEnable']
+        end
+    end
+
+    if slot_data['Goal_Set'] == 0 then
+        Tracker:FindObjectForCode("goal").CurrentStage = 0
+    elseif slot_data['Goal_Set'] == 1 then
+        Tracker:FindObjectForCode("goal").CurrentStage = 1
+    elseif slot_data['Goal_Set'] == 2 then
+        Tracker:FindObjectForCode("goal").CurrentStage = 2
+    elseif slot_data['Goal_Set'] == 3 then
+        Tracker:FindObjectForCode("goal").CurrentStage = 3
+    elseif slot_data['Goal_Set'] == 4 then
+        Tracker:FindObjectForCode("goal").CurrentStage = 4
+    end
+
+    if slot_data['Goal_Set'] == 2 then
+        Tracker:FindObjectForCode("dragonack_status").CurrentStage = 1
+    end
+
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("called onClear, slot_data:\n%s", dump_table(slot_data)))
     end
