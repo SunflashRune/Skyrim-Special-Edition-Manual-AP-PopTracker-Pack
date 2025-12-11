@@ -660,7 +660,8 @@
             {
                 "name": "The Companions",
                 "access_rules":[
-                    "OneHanded", "TwoHanded"
+                    "OneHanded, MainQuestProg:1", "OneHanded, Speech", "TwoHanded, MainQuestProg:1", "TwoHanded, Speech"
+                    ///One-Handed OR Two-Handed, as well as either 1 MQP OR Speech
                 ],
                 "visibility_rules":["companions_on"],
                 "sections": [
@@ -1549,7 +1550,7 @@
                     {
                         "name": "The House of Horrors",
                         "access_rules":[
-                            "MainQuestProg:3, WeaponProg:1"
+                            "MainQuestProg:3, WeaponProg:1, OneHanded"
                         ],
                         "item_count": 1
                     },
